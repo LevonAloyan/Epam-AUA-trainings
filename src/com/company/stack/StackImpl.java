@@ -3,7 +3,7 @@ package com.company.stack;
 public class StackImpl implements Stack{
     @Override
     public int pop() {
-        return 0;
+        return 1;
     }
 
     @Override
