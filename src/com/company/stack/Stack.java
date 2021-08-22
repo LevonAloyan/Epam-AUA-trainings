@@ -1,8 +1,8 @@
 package com.company.stack;
 
-public interface Stack {
+public interface Stack<T> {
 
-    int pop();
+    T pop();
 
-    void push(int element);
+    void push(T element);
 }
